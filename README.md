@@ -48,7 +48,7 @@ The parameter should be the name of your template file.
 
 You can also add ```if``` statements in your template file, see the example folder.
 
-##Download
+##[Download](https://github.com/OverStruck/EZ-Template/releases)
 
 *Any feedback is appreciated. If you have any suggestions to improve this extension, don't hesitate to let me know.*
 
@@ -101,6 +101,6 @@ El parámetro debe ser el nombre de tu archivo de plantilla.
 
 También puede añadir declaraciones ```if``` en tu archivo de plantilla, consulta la carpeta *example*
 
-##Descargar
+##[Descargar](https://github.com/OverStruck/EZ-Template/releases)
 
 *Cualquier comentario es apreciado. Si usted tiene alguna sugerencia para mejorar esta extensión, no dude en hacérmelo saber.*

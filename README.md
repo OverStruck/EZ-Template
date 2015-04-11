@@ -31,14 +31,14 @@ For your actual php file, you just need to include the class:
 	$tem = new EZ_Template;
 ```
 
-Then simply setup the variable content using the assign() method method
+Then simply setup the variable content using the ```assign()``` method method
 
 ```php
 	$tem->assign('title', 'Ez Template');
 	$tem->assign('description', 'Welcome to this example page');
 ```
 
-And finally, just call the render() method which takes a string as a parameter
+And finally, just call the ```render()``` method which takes a string as a parameter
 The parameter should be the name of your template file
 
 ```php

@@ -1,5 +1,5 @@
 ![Screenshot](http://i.imgur.com/nuIFwxr.png)
-#EZ Template (Para Español leer mas abajo)
+#(Para Español leer mas abajo)
 EZ Template is a very simple PHP class developed to make the creation of simple websites with dinamic content very easy.
 
 ##How to use

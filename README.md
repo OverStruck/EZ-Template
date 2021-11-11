@@ -1,8 +1,9 @@
+# THIS PROJECT HAS BEEN DEPRECATED
 ![Screenshot](http://i.imgur.com/nuIFwxr.png)
-#(Para Español leer mas abajo)
+
 EZ Template is a very simple PHP class developed to make the creation of simple websites with dinamic content very easy.
 
-##How to use
+## How to use
 *See the example folder in this repository for a complete example*
 
 EZ Template is extremetely easy to use.
@@ -48,59 +49,6 @@ The parameter should be the name of your template file.
 
 You can also add ```if``` statements in your template file, see the example folder.
 
-##[Download](https://github.com/OverStruck/EZ-Template/releases)
+## [Download](https://github.com/OverStruck/EZ-Template/releases)
 
 *Any feedback is appreciated. If you have any suggestions to improve this extension, don't hesitate to let me know.*
-
-#EZ Template (Spanish)
-EZ Template es una clase de PHP desarrollada para hacer la creación de paginas web simples con contenido dinámico fácil y rápido.
-
-##Como usar
-*Ve la carpeta de *example* en este repositorio para un ejemplo completo*
-
-EZ Template es extremadamente fácil de usar.
-Necesitas al menos **dos** archivos:
-* Tu archivo principal php
-* Un archivo de plantilla (con .html como extensión)
-
-Configura el archivo de plantilla con "variables" que contendrán tu contenido dinámico:
-
-```html
-	<title>[titulo] | Mi sitio web</title>
-	<meta name="description" content="[descripcion]" />
-```
-
-En el ejemplo de arriba ```[titulo]``` y ```[descripcion]``` son nuestras variables.
-Tus variables *deben* de estar envuelvas en ```[]``` pero el nombre puede ser lo que quieras.
-Puedes añadir tantas variables como quieras en tu archivo de plantilla, lo que le apetezca o sea conveniente.
-
-Básicamente, EZ Template reemplaza las variables con contenido real e ignora el resto del archivo.
-
-Para tu archivo PHP, sólo tienes que incluir la clase:
-
-```php
-	require 'EZ_Template.class.php';
-	//create object
-	$tem = new EZ_Template;
-```
-
-Después, simplemente configura el contenido de la variable usando el método ```assign()```
-
-```php
-	$tem->assign('titulo', 'Ez Template');
-	$tem->assign('descripcion', 'Bienvenido a mi pagina');
-```
-
-Y, por último, llama al método ```render()``` que toma como parámetro un *string*
-El parámetro debe ser el nombre de tu archivo de plantilla.
-
-```php
-	$nombre_de_plantilla = 'plantilla';
-	$tem->render($nombre_de_plantilla);
-```
-
-También puede añadir declaraciones ```if``` en tu archivo de plantilla, consulta la carpeta *example*
-
-##[Descargar](https://github.com/OverStruck/EZ-Template/releases)
-
-*Cualquier comentario es apreciado. Si usted tiene alguna sugerencia para mejorar esta extensión, no dude en hacérmelo saber.*
